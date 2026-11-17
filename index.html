@@ -1,90 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dakota STEM Trails</title>
-<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dakota STEM Trails | Student-led STEM for rural South Dakota</title>
+  <meta name="description" content="Dakota STEM Trails is a student-led organization inspiring children in rural South Dakota to explore STEM through accessible, creative, hands-on learning.">
+  <meta name="theme-color" content="#ddceba">
+  <meta property="og:title" content="Dakota STEM Trails | Student-led STEM for rural South Dakota">
+  <meta property="og:description" content="Dakota STEM Trails is a student-led organization inspiring children in rural South Dakota to explore STEM through accessible, creative, hands-on learning.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/hero-explorer.jpg">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2048%2048%22%3E%3Ccircle%20cx%3D%2224%22%20cy%3D%2224%22%20r%3D%2224%22%20fill%3D%22%23b24d27%22/%3E%3Ccircle%20cx%3D%2233%22%20cy%3D%2215%22%20r%3D%224%22%20fill%3D%22%23d3cc67%22/%3E%3Cpath%20d%3D%22M7%2035%2018%2021l6%207%205-5%2012%2012Z%22%20fill%3D%22%23fffdf8%22/%3E%3Cpath%20d%3D%22M14%2035c3-4%208-3%209-7%22%20fill%3D%22none%22%20stroke%3D%22%23b24d27%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-dasharray%3D%220.5%203.2%22/%3E%3C/svg%3E">
+  <script>document.documentElement.classList.add("js");</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  <div class="page-curtain" aria-hidden="true"><svg class="curtain-mark" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="24" fill="#b24d27"/><circle cx="33" cy="15" r="4" fill="#d3cc67"/><path d="M7 35 18 21l6 7 5-5 12 12Z" fill="#fffdf8"/><path d="M14 35c3-4 8-3 9-7" fill="none" stroke="#b24d27" stroke-width="2" stroke-linecap="round" stroke-dasharray="0.5 3.2"/></svg><div class="curtain-word">Dakota STEM Trails</div></div>
+  <div class="scroll-progress" aria-hidden="true"></div>
 
-<nav class="main-nav">
-  <a href="index.html" class="active">Home</a>
-  <a href="about.html">About Us</a>
-  <a href="contact.html">Contact</a>
-  <a href="team.html">Our Team</a>
-</nav>
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav-shell" aria-label="Main navigation">
+        <a class="brand" href="index.html" aria-label="Dakota STEM Trails home"><svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="24" fill="#b24d27"/><circle cx="33" cy="15" r="4" fill="#d3cc67"/><path d="M7 35 18 21l6 7 5-5 12 12Z" fill="#fffdf8"/><path d="M14 35c3-4 8-3 9-7" fill="none" stroke="#b24d27" stroke-width="2" stroke-linecap="round" stroke-dasharray="0.5 3.2"/></svg><span>Dakota STEM Trails</span></a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu"><span></span><span></span><span></span></button>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="team.html">Our Team</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-<section class="hero">
-  <div class="panel">
-    <h1>Dakota STEM Trails</h1>
-    <p>Dakota STEM Trails is a student-led organization that inspires children in rural communities to explore STEM through accessible, creative, hands-on learning opportunities and meaningful community partnerships.</p>
-  </div>
-  <img src="https://picsum.photos/seed/dakota-hero/900/700" alt="Child exploring nature with a magnifying glass">
-</section>
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="card bg-panel hero-copy">
+            <span class="blob b1" aria-hidden="true"></span><span class="blob b3" aria-hidden="true"></span>
+            <span class="eyebrow" data-reveal="up" style="--d:.1s">Student-led &middot; Brookings, South Dakota</span>
+            <h1 data-split style="--d:.2s">Dakota STEM Trails</h1>
+            <p class="lead" data-reveal="up" style="--d:.6s">Dakota STEM Trails is a student-led organization that inspires children in rural communities to explore STEM through accessible, creative, hands-on learning opportunities and meaningful community partnerships.</p>
+            <div class="hero-actions" data-reveal="up" style="--d:.8s">
+              <a class="btn btn-primary" href="#mission">Our Mission <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+              <a class="btn btn-outline" href="contact.html">Get Involved</a>
+            </div>
+            <svg class="trail" viewBox="0 0 800 110" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+        <defs><mask id="trailMask" maskUnits="userSpaceOnUse"><path class="trail-draw" pathLength="1" d="M10 80C120 20 200 100 320 60S520 10 620 55 740 90 780 40"/></mask></defs>
+        <path class="trail-dash" d="M10 80C120 20 200 100 320 60S520 10 620 55 740 90 780 40" mask="url(#trailMask)"/>
+        <circle class="trail-pin-ring" cx="780" cy="40" r="9"/><circle class="trail-pin" cx="780" cy="40" r="7"/>
+      </svg>
+          </div>
+          <figure class="media hero-media" data-reveal="image" style="--d:.25s">
+          <div class="media-inner" data-parallax="0.04"><img src="images/hero-explorer.jpg" alt="A young boy crouching in tall grass, studying a leaf through a magnifying glass" width="998" height="1178" fetchpriority="high"></div>
+          <div class="hero-chip"><span class="dots"><span class="bg-orange">S</span><span class="bg-yellow">T</span><span class="bg-blue">E</span><span class="bg-green">M</span></span>Hands-on learning for rural kids</div>
+        </figure>
+        </div>
+      </div>
+    </section>
 
-<section class="two-col">
-  <img src="https://picsum.photos/seed/dakota-mission/900/700" alt="Children doing an art activity">
-  <div class="box bg-yellow">
-    <h2>Our Mission</h2>
-    <p>To inspire and encourage children across rural South Dakota to explore science, technology, engineering, and mathematics through accessible, creative, and community-centered learning opportunities</p>
-  </div>
-</section>
+    <section class="container" aria-hidden="true">
+      <div class="marquee" data-reveal="fade"><div class="marquee-track"><div class="marquee-group"><span class="marquee-item">Science<i style="background:var(--yellow)"></i></span><span class="marquee-item">Technology<i style="background:var(--blue)"></i></span><span class="marquee-item">Engineering<i style="background:var(--orange)"></i></span><span class="marquee-item">Mathematics<i style="background:var(--green)"></i></span><span class="marquee-item">Agriculture<i style="background:var(--yellow)"></i></span><span class="marquee-item">Weather<i style="background:var(--blue)"></i></span><span class="marquee-item">Wildlife<i style="background:var(--orange)"></i></span><span class="marquee-item">Water<i style="background:var(--green)"></i></span><span class="marquee-item">Energy<i style="background:var(--yellow)"></i></span><span class="marquee-item">Community<i style="background:var(--blue)"></i></span></div><div class="marquee-group"><span class="marquee-item">Science<i style="background:var(--yellow)"></i></span><span class="marquee-item">Technology<i style="background:var(--blue)"></i></span><span class="marquee-item">Engineering<i style="background:var(--orange)"></i></span><span class="marquee-item">Mathematics<i style="background:var(--green)"></i></span><span class="marquee-item">Agriculture<i style="background:var(--yellow)"></i></span><span class="marquee-item">Weather<i style="background:var(--blue)"></i></span><span class="marquee-item">Wildlife<i style="background:var(--orange)"></i></span><span class="marquee-item">Water<i style="background:var(--green)"></i></span><span class="marquee-item">Energy<i style="background:var(--yellow)"></i></span><span class="marquee-item">Community<i style="background:var(--blue)"></i></span></div></div></div>
+    </section>
 
-<div class="section panel center-title">
-  <h2>Core Principles</h2>
-</div>
+    <section class="section" id="mission">
+      <div class="container grid-2">
+        <figure class="media " data-reveal="image">
+          <div class="media-inner" data-parallax="0.06"><img src="images/kids-painting.jpg" alt="Children painting together at a classroom table" width="1313" height="1130" loading="lazy" decoding="async"></div>
+        </figure>
+        <div class="card bg-yellow mission-card" data-reveal="right">
+          <span class="quote-mark" aria-hidden="true">&ldquo;</span>
+          <span class="eyebrow">Why we exist</span>
+          <h2>Our Mission</h2>
+          <p class="big">To inspire and encourage children across rural South Dakota to explore science, technology, engineering, and mathematics through accessible, creative, and community-centered learning opportunities.</p>
+        </div>
+      </div>
+    </section>
 
-<section class="feature-grid">
-  <div class="box bg-orange">
-    <h3>Student-Led</h3>
-    <p>High-school students plan programs, lead activities, and make organizational decisions.</p>
-  </div>
-  <img src="https://picsum.photos/seed/dakota-studentled/900/700" alt="Students in a classroom">
-</section>
+    <section class="section" id="principles">
+      <div class="container">
+        <div class="card bg-panel heading-panel" data-reveal="zoom">
+          <span class="eyebrow centered">What guides us</span>
+          <h2 data-split>Core Principles</h2>
+          <p class="lead">Five ideas shape every program we design and every activity we lead.</p>
+        </div>
+      </div>
+    </section>
 
-<section class="feature-grid">
-  <div class="box bg-blue">
-    <h3>Locally relevant</h3>
-    <p>Activities connect STEM to agriculture, weather, wildlife, water, energy, and rural community life.</p>
-  </div>
-  <img src="https://picsum.photos/seed/dakota-local/900/700" alt="Children examining soil samples with magnifying glasses" style="grid-row: span 2;">
-</section>
+    <section class="section">
+      <div class="container principles-top">
+        <div class="principles-stack" data-stagger="0.12">
+          <article class="card principle bg-orange" data-reveal="left">
+            <div class="principle-head"><span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10 12 5 2 10l10 5 10-5Z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/><path d="M22 10v6"/></svg></span><span class="principle-num">01</span></div>
+            <h3>Student-Led</h3>
+            <p>High-school students plan programs, lead activities, and make organizational decisions.</p>
+          </article>
+          <article class="card principle bg-blue" data-reveal="left">
+            <div class="principle-head"><span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 20h10"/><path d="M10 20c5.5-2.5.8-6.4 3-10"/><path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8Z"/><path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2Z"/></svg></span><span class="principle-num">02</span></div>
+            <h3>Locally relevant</h3>
+            <p>Activities connect STEM to agriculture, weather, wildlife, water, energy, and rural community life.</p>
+          </article>
+          <article class="card principle bg-yellow" data-reveal="left">
+            <div class="principle-head"><span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg></span><span class="principle-num">03</span></div>
+            <h3>Accessible</h3>
+            <p>Programs use affordable materials and can travel to schools, libraries, and community centers.</p>
+          </article>
+        </div>
+        <div class="principles-media">
+          <figure class="media " data-reveal="image">
+          <div class="media-inner" data-parallax="0.06"><img src="images/classroom.jpg" alt="Students working in a bright classroom with plants and large windows" width="1050" height="816" loading="lazy" decoding="async"></div>
+        </figure>
+          <figure class="media " data-reveal="image" style="--d:.15s">
+          <div class="media-inner" data-parallax="0.06"><img src="images/soil-science.jpg" alt="Children examining soil samples with magnifying glasses" width="1314" height="1061" loading="lazy" decoding="async"></div>
+        </figure>
+        </div>
+      </div>
+    </section>
 
-<section class="feature-grid">
-  <div class="box bg-yellow">
-    <h3>Accessible</h3>
-    <p>Programs use affordable materials and can travel to schools, libraries, and community centers.</p>
-  </div>
-</section>
+    <section class="section">
+      <div class="container grid-2">
+        <figure class="media " data-reveal="image">
+          <div class="media-inner" data-parallax="0.06"><img src="images/building-blocks.jpg" alt="Young children sitting on the floor building with wooden blocks" width="1313" height="457" loading="lazy" decoding="async"></div>
+        </figure>
+        <article class="card principle bg-blue" data-reveal="right">
+            <div class="principle-head"><span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 2v7.53a2 2 0 0 1-.21.9L4.72 20.55A1 1 0 0 0 5.62 22h12.76a1 1 0 0 0 .9-1.45l-5.07-10.12a2 2 0 0 1-.21-.9V2"/><path d="M8.5 2h7"/><path d="M7 16h10"/></svg></span><span class="principle-num">04</span></div>
+            <h3>Hands-on</h3>
+            <p>Children learn by asking questions, testing ideas, building models, and solving problems.</p>
+          </article>
+      </div>
+    </section>
 
-<section class="feature-grid">
-  <img src="https://picsum.photos/seed/dakota-handson-photo/900/700" alt="Children playing with blocks">
-  <div class="box bg-blue">
-    <h3>Hands-on</h3>
-    <p>Children learn by asking questions, testing ideas, building models, and solving problems.</p>
-  </div>
-</section>
+    <section class="section">
+      <div class="container grid-2 reverse-mobile">
+        <article class="card principle bg-yellow" data-reveal="left">
+            <div class="principle-head"><span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span><span class="principle-num">05</span></div>
+            <h3>Collaborative</h3>
+            <p>Community partners provide mentorship, expertise, venues, volunteers, and resources.</p>
+          </article>
+        <figure class="media " data-reveal="image">
+          <div class="media-inner" data-parallax="0.06"><img src="images/science-experiment.jpg" alt="Children recording observations during a science experiment" width="1050" height="751" loading="lazy" decoding="async"></div>
+        </figure>
+      </div>
+    </section>
 
-<section class="feature-grid">
-  <div class="box bg-yellow">
-    <h3>Collaborative</h3>
-    <p>Community partners provide mentorship, expertise, venues, volunteers, and resources.</p>
-  </div>
-  <img src="https://picsum.photos/seed/dakota-collab/900/700" alt="Children doing a science experiment">
-</section>
+    <section class="section">
+      <div class="container">
+        <div class="card bg-orange cta-band" data-reveal="up">
+          <svg class="trail" viewBox="0 0 800 110" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+        <defs><mask id="trailMask2" maskUnits="userSpaceOnUse"><path class="trail-draw" pathLength="1" d="M10 95C140 60 160 15 300 40S500 100 640 50 760 20 790 18"/></mask></defs>
+        <path class="trail-dash" d="M10 95C140 60 160 15 300 40S500 100 640 50 760 20 790 18" mask="url(#trailMask2)"/>
+        <circle class="trail-pin-ring" cx="790" cy="18" r="9"/><circle class="trail-pin" cx="790" cy="18" r="7"/>
+      </svg>
+          <div>
+            <span class="eyebrow">Get involved</span>
+            <h2>Would you like to reach out to us?</h2>
+            <p class="lead">Partner with us, volunteer, or bring a program to your school, library, or community center.</p>
+          </div>
+          <div><a class="btn btn-light" href="contact.html">Contact Us <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a></div>
+        </div>
+      </div>
+    </section>
 
-<footer>
-  <h2>Dakota STEM Trails</h2>
-  <div class="menu">
-    <strong style="font-family:'Playfair Display',serif;">Menu</strong>
-    <a href="index.html">Home</a>
-    <a href="about.html">About Us</a>
-    <a href="contact.html">Contact</a>
-    <a href="team.html">Our Team</a>
-  </div>
-  <div class="copyright">© 2026 by Dakota STEM Trails</div>
-</footer>
+  </main>
 
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-card" data-reveal="up">
+        <span class="blob b1" aria-hidden="true"></span>
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <h2>Dakota STEM Trails</h2>
+            <p>Inspiring children in rural South Dakota to explore STEM through accessible, creative, hands-on learning and meaningful community partnerships.</p>
+          </div>
+          <div class="footer-col">
+            <h4>Menu</h4>
+            <ul>
+              <li><a href="index.html" aria-current="page">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="team.html">Our Team</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Connect</h4>
+            <ul>
+              <li><a href="mailto:dakotastemtrails@gmail.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>dakotastemtrails@gmail.com</a></li>
+              <li><a href="https://www.instagram.com/dakotastemtrails/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="20" x="2" y="2" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37Z"/><path d="M17.5 6.5h.01"/></svg>@dakotastemtrails</a></li>
+              <li><span style="display:inline-flex;align-items:center;gap:10px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>Brookings, South Dakota</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>&copy; 2026 by Dakota STEM Trails</span>
+          <button class="to-top" type="button" data-to-top>Back to top <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 7-7 7 7"/><path d="M12 19V5"/></svg></button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>

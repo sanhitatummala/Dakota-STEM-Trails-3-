@@ -1,68 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Our Team | Dakota STEM Trails</title>
-<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Our Team | Dakota STEM Trails</title>
+  <meta name="description" content="Meet the student leaders of Dakota STEM Trails.">
+  <meta name="theme-color" content="#ddceba">
+  <meta property="og:title" content="Our Team | Dakota STEM Trails">
+  <meta property="og:description" content="Meet the student leaders of Dakota STEM Trails.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/hero-explorer.jpg">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2048%2048%22%3E%3Ccircle%20cx%3D%2224%22%20cy%3D%2224%22%20r%3D%2224%22%20fill%3D%22%23b24d27%22/%3E%3Ccircle%20cx%3D%2233%22%20cy%3D%2215%22%20r%3D%224%22%20fill%3D%22%23d3cc67%22/%3E%3Cpath%20d%3D%22M7%2035%2018%2021l6%207%205-5%2012%2012Z%22%20fill%3D%22%23fffdf8%22/%3E%3Cpath%20d%3D%22M14%2035c3-4%208-3%209-7%22%20fill%3D%22none%22%20stroke%3D%22%23b24d27%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-dasharray%3D%220.5%203.2%22/%3E%3C/svg%3E">
+  <script>document.documentElement.classList.add("js");</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  <div class="page-curtain" aria-hidden="true"><svg class="curtain-mark" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="24" fill="#b24d27"/><circle cx="33" cy="15" r="4" fill="#d3cc67"/><path d="M7 35 18 21l6 7 5-5 12 12Z" fill="#fffdf8"/><path d="M14 35c3-4 8-3 9-7" fill="none" stroke="#b24d27" stroke-width="2" stroke-linecap="round" stroke-dasharray="0.5 3.2"/></svg><div class="curtain-word">Dakota STEM Trails</div></div>
+  <div class="scroll-progress" aria-hidden="true"></div>
 
-<nav class="main-nav">
-  <a href="index.html">Home</a>
-  <a href="about.html">About Us</a>
-  <a href="contact.html">Contact</a>
-  <a href="team.html" class="active">Our Team</a>
-</nav>
-
-<div class="section panel center-title">
-  <h1>Our Team</h1>
-</div>
-
-<div class="section" style="padding-top:0;">
-  <div class="team-card" style="margin-bottom:24px;">
-    <h3>Sanhita Tummala</h3>
-    <div class="role">- President and Founder -</div>
-  </div>
-
-  <div class="team-grid-2">
-    <div class="team-card">
-      <h3>Danielle Gavlick</h3>
-      <div class="role">- Vice President -</div>
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav-shell" aria-label="Main navigation">
+        <a class="brand" href="index.html" aria-label="Dakota STEM Trails home"><svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="24" fill="#b24d27"/><circle cx="33" cy="15" r="4" fill="#d3cc67"/><path d="M7 35 18 21l6 7 5-5 12 12Z" fill="#fffdf8"/><path d="M14 35c3-4 8-3 9-7" fill="none" stroke="#b24d27" stroke-width="2" stroke-linecap="round" stroke-dasharray="0.5 3.2"/></svg><span>Dakota STEM Trails</span></a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu"><span></span><span></span><span></span></button>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="team.html" aria-current="page">Our Team</a></li>
+        </ul>
+      </nav>
     </div>
-    <div class="team-card">
-      <h3>Murtadha Jodhari</h3>
-      <div class="role">- Vice President -</div>
-    </div>
-  </div>
+  </header>
+<main>
+    <section class="page-hero">
+      <div class="container">
+        <div class="card bg-panel">
+          <span class="blob b1" aria-hidden="true"></span><span class="blob b2" aria-hidden="true"></span><span class="blob b3" aria-hidden="true"></span>
+          <span class="eyebrow centered" data-reveal="up" style="--d:.1s">The people behind the trails</span>
+          <h1 data-split style="--d:.2s">Our Team</h1>
+          <p class="lead" data-reveal="up" style="--d:.6s">Meet the high-school students who plan programs, lead activities, and guide Dakota STEM Trails.</p>
+          <svg class="trail" viewBox="0 0 800 110" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+        <defs><mask id="trailMask" maskUnits="userSpaceOnUse"><path class="trail-draw" pathLength="1" d="M10 80C120 20 200 100 320 60S520 10 620 55 740 90 780 40"/></mask></defs>
+        <path class="trail-dash" d="M10 80C120 20 200 100 320 60S520 10 620 55 740 90 780 40" mask="url(#trailMask)"/>
+        <circle class="trail-pin-ring" cx="780" cy="40" r="9"/><circle class="trail-pin" cx="780" cy="40" r="7"/>
+      </svg>
+        </div>
+      </div>
+    </section>
 
-  <div class="team-grid-3">
-    <div class="team-card">
-      <h3>Josie Hegerfeld</h3>
-      <div class="role">- Secretary -</div>
-    </div>
-    <div class="team-card">
-      <h3>Elizabeth Saunders</h3>
-      <div class="role">- Treasurer -</div>
-    </div>
-    <div class="team-card">
-      <h3>Ruby Lefers</h3>
-      <div class="role">- Director of Media and Resources -</div>
-    </div>
-  </div>
-</div>
+    <section class="section">
+      <div class="container">
+        <div class="team-grid cols-1" data-stagger="0.12">
+          <article class="card bg-panel member featured" data-reveal="up" data-tilt>
+            <div class="avatar bg-orange" style="color:#fff;" aria-hidden="true">ST</div>
+            <h3>Sanhita Tummala</h3>
+            <span class="role">President and Founder</span>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="team-grid cols-2" data-stagger="0.12">
+          <article class="card bg-panel member" data-reveal="up" data-tilt>
+            <div class="avatar bg-blue" style="" aria-hidden="true">DG</div>
+            <h3>Danielle Gavlick</h3>
+            <span class="role">Vice President</span>
+          </article>
+          <article class="card bg-panel member" data-reveal="up" data-tilt>
+            <div class="avatar bg-yellow" style="" aria-hidden="true">MJ</div>
+            <h3>Murtadha Jodhari</h3>
+            <span class="role">Vice President</span>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="team-grid cols-4" data-stagger="0.12">
+          <article class="card bg-panel member" data-reveal="up" data-tilt>
+            <div class="avatar bg-green" style="" aria-hidden="true">JH</div>
+            <h3>Josie Hegerfeld</h3>
+            <span class="role">Secretary</span>
+          </article>
+          <article class="card bg-panel member" data-reveal="up" data-tilt>
+            <div class="avatar bg-blue" style="" aria-hidden="true">ES</div>
+            <h3>Elizabeth Saunders</h3>
+            <span class="role">Treasurer</span>
+          </article>
+          <article class="card bg-panel member" data-reveal="up" data-tilt>
+            <div class="avatar bg-yellow" style="" aria-hidden="true">RL</div>
+            <h3>Ruby Lefers</h3>
+            <span class="role">Director of Media and Resources</span>
+          </article>
+          <article class="card bg-panel member" data-reveal="up" data-tilt>
+            <div class="avatar bg-orange" style="color:#fff;" aria-hidden="true">AM</div>
+            <h3>Avalon Monell</h3>
+            <span class="role">Director of Program Design</span>
+          </article>
+        </div>
+      </div>
+    </section>
 
-<footer>
-  <h2>Dakota STEM Trails</h2>
-  <div class="menu">
-    <strong style="font-family:'Playfair Display',serif;">Menu</strong>
-    <a href="index.html">Home</a>
-    <a href="about.html">About Us</a>
-    <a href="contact.html">Contact</a>
-    <a href="team.html">Our Team</a>
-  </div>
-  <div class="copyright">© 2026 by Dakota STEM Trails</div>
-</footer>
+    <section class="section">
+      <div class="container">
+        <div class="card bg-orange cta-band" data-reveal="up">
+          <svg class="trail" viewBox="0 0 800 110" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+        <defs><mask id="trailMask2" maskUnits="userSpaceOnUse"><path class="trail-draw" pathLength="1" d="M10 95C140 60 160 15 300 40S500 100 640 50 760 20 790 18"/></mask></defs>
+        <path class="trail-dash" d="M10 95C140 60 160 15 300 40S500 100 640 50 760 20 790 18" mask="url(#trailMask2)"/>
+        <circle class="trail-pin-ring" cx="790" cy="18" r="9"/><circle class="trail-pin" cx="790" cy="18" r="7"/>
+      </svg>
+          <div>
+            <span class="eyebrow">Join us</span>
+            <h2>Want to get involved?</h2>
+            <p class="lead">We welcome partners, mentors, and volunteers who want to help bring hands-on STEM to rural South Dakota.</p>
+          </div>
+          <div><a class="btn btn-light" href="contact.html">Get in Touch <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a></div>
+        </div>
+      </div>
+    </section>
 
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-card" data-reveal="up">
+        <span class="blob b1" aria-hidden="true"></span>
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <h2>Dakota STEM Trails</h2>
+            <p>Inspiring children in rural South Dakota to explore STEM through accessible, creative, hands-on learning and meaningful community partnerships.</p>
+          </div>
+          <div class="footer-col">
+            <h4>Menu</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="team.html" aria-current="page">Our Team</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Connect</h4>
+            <ul>
+              <li><a href="mailto:dakotastemtrails@gmail.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>dakotastemtrails@gmail.com</a></li>
+              <li><a href="https://www.instagram.com/dakotastemtrails/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="20" x="2" y="2" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37Z"/><path d="M17.5 6.5h.01"/></svg>@dakotastemtrails</a></li>
+              <li><span style="display:inline-flex;align-items:center;gap:10px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>Brookings, South Dakota</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>&copy; 2026 by Dakota STEM Trails</span>
+          <button class="to-top" type="button" data-to-top>Back to top <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 7-7 7 7"/><path d="M12 19V5"/></svg></button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
